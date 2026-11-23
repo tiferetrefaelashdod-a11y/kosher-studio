@@ -21,5 +21,10 @@ a { color: var(--accent); }
   display: grid; place-items: center; font-size: 26px;
 }
 .he { background: var(--card); border-radius: 12px; padding: 4px 20px 12px; margin-top: 2em; }
+.yt-attrib { margin-top: 2em; padding: 12px 16px; border: 1px solid var(--card); border-radius: 12px; }
+.yt-mark {
+  display: inline-grid; place-items: center; width: 28px; height: 20px; border-radius: 6px;
+  background: #ff0000; color: #fff; font-size: 11px; margin-inline-end: 6px; vertical-align: middle;
+}
 footer { margin-top: 3em; display: flex; flex-wrap: wrap; gap: 8px; color: var(--muted); }
 li { margin: 0.25em 0; }
